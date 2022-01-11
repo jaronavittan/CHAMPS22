@@ -1,0 +1,119 @@
+HTML PORTION
+-----------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+        <title>UFC CHAMPES JAN 2022</title>
+        <link rel="stylesheet" type="text/css" href="table.css"> 
+</head>
+<body>
+  <table>
+    <tr>
+      <th>number</th>
+      <th>name</th>
+      <th>weightclass</th>
+      <th>country</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Francis Ngannou</td>
+      <td>Heavyweight</td>
+      <td>Cameroon</td>
+    </tr>
+        <tr>
+      <td>2</td>
+      <td>Glover Teixeira</td>
+      <td>Light Heavyweight</td>
+      <td>Brazil</td>
+    </tr>
+        <tr>
+      <td>3</td>
+      <td>Israel Adesanya</td>
+      <td>Middleweight</td>
+      <td>Nigeria</td>
+    </tr>
+        <tr>
+      <td>4</td>
+      <td>Kamaru Usman</td>
+      <td>Welterweight</td>
+      <td>Nigeria</td>
+    </tr>
+        <tr>
+      <td>5</td>
+      <td>Charles Oliveira</td>
+      <td>Lightweight</td>
+      <td>Brazil</td>
+    </tr>
+        <tr>
+      <td>6</td>
+      <td>Alexander Volkanowski</td>
+      <td>Featherweight</td>
+      <td>Australia</td>
+    </tr>
+        <tr>
+      <td>7</td>
+      <td>Petr Yan</td>
+      <td>Flyweight</td>
+      <td>Russia</td>
+    </tr>
+        <tr>
+      <td>8</td>
+      <td>Brandon Moreno</td>
+      <td>Bantamweight</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
+  </body>  
+</html>
+
+
+CSS PORTION
+--------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: comic sans ms;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100hv;
+  display: grid;
+  place-items: center;
+  background-image: url('https://media.istockphoto.com/photos/render-mma-arena-mma-octagon-cages-picture-id1158543289?k=20&m=1158543289&s=612x612&w=0&h=gSdCZiifkzxvZBgeeCNRi--nfr5mv2pCQAXNO8vNHKE=');
+}
+
+table {
+  width:600px;
+  box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+}
+
+table, td, th {
+  padding: 20px;
+  border: 1px solid lightblue;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td {
+  font-size: 17px;
+}
+
+th {
+  background-color: seagreen;
+  color: white;
+  font-size: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: darkorange;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
